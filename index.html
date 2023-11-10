@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+    <script src="app.js"></script>
     <title>NOUBISSIE WILFRIED</title>
 </head>
-<body>
+<body onload="autoWrite()">
     <!-- Barre de Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#" class="navbar-brand">NK_WILFRIED</a>
@@ -34,7 +35,7 @@
     <header class="jumbotron text-center">
         <div class="container">
             <img src="img/me.jpg" alt="mon image" width="200px" class="rounded-circle img-fluid">
-            <h1 class="mt-4">Salut, je suis <strong>NOUBISSIE KAMGA WILFRIED</strong></h1>
+            <h1 class="mt-4"><span id="Text"></span></h1>
             <p class="lead" style="font-variant: small-caps;">
                  DevOps et Développeur web passionné avec aujourd'hui exactement 03 ans d'expériences dans les technologies web. J'ai une très bonne connaissance de pas mal de langages de programmation orientée objet 
                 tels que <em><mark>Python, Javascript/Typescript, Java, PHP</mark></em>, et j'utilise pas mal de technologies mais je me sens le plus à l'aise avec le framework python
