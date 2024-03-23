@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
     <script src="app.js"></script>
     <title>NOUBISSIE WILFRIED</title>
 </head>
-    <script src="//code.tidio.co/ryiilm3j1c8suhzgqigy0igacyarl6tp.js" async></script>
+<script src="//code.tidio.co/ryiilm3j1c8suhzgqigy0igacyarl6tp.js" async></script>
+
 <body onload="autoWrite()">
     <!-- Barre de Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#" class="navbar-brand">NK_WILFRIED</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,8 +42,11 @@
             <img src="img/me.jpg" alt="mon image" width="200px" class="rounded-circle img-fluid">
             <h1 class="mt-4"><span id="Text"></span></h1>
             <p class="lead" style="font-variant: small-caps;">
-                 Développeur Python, Django, C#, .Net, JavaScript/TypeScript, Java, PHP & DevOps passionné avec aujourd'hui exactement 03 ans d'expériences dans les technologies web. J'ai une très bonne connaissance de pas mal de langages de programmation orientée objet 
-                tels que <em><mark>Python, Javascript/Typescript, Java, PHP, C#</mark></em>, et j'utilise pas mal de technologies mais je me sens le plus à l'aise avec le framework python
+                Développeur Python, Django, C#, .Net, JavaScript/TypeScript, Java, PHP & DevOps passionné avec
+                aujourd'hui exactement 03 ans d'expériences dans les technologies web. J'ai une très bonne connaissance
+                de pas mal de langages de programmation orientée objet
+                tels que <em><mark>Python, Javascript/Typescript, Java, PHP, C#</mark></em>, et j'utilise pas mal de
+                technologies mais je me sens le plus à l'aise avec le framework python
                 <a href="https://djangoproject.com">Django</a>.
             </p>
             <div class="icons">
@@ -47,7 +54,8 @@
                 <a href="https://gitlab.com/Noubissie237" target="_blank"><i class="fab fa-gitlab"></i></a>
                 <a href="mailto:wilfried.noubissie@facsciences-uy1.cm"><i class="fas fa-envelope"></i></a>
                 <a href="https://x.com/NKW_237" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/wilfried-noubissie-kamga-989912298"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/wilfried-noubissie-kamga-989912298"><i
+                        class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </header>
@@ -62,8 +70,10 @@
                         <div class="card-body">
                             <h5 class="card-title"> <strong>Noubissie237/songo-game</strong></h5>
                             <p class="card-text">Simple jeu du songo</p>
-                            <button class="btn btn-outline-success"><a href="https://github.com/Noubissie237/songo-game">Projet GitHub</a></button>
-                            <button class="btn btn-outline-success"><a href="https://songo-demo.netlify.app/">Démo en direct</a></button>
+                            <button class="btn btn-outline-success"><a
+                                    href="https://github.com/Noubissie237/songo-game">Projet GitHub</a></button>
+                            <button class="btn btn-outline-success"><a href="https://songo-demo.netlify.app/">Démo en
+                                    direct</a></button>
                         </div>
                     </div>
                 </div>
@@ -73,7 +83,8 @@
                         <div class="card-body">
                             <h5 class="card-title"> <strong>Noubissie237/tapatan-game</strong></h5>
                             <p class="card-text">Simple jeu du tapatan avec implémentation du drag and drop</p>
-                            <button class="btn btn-outline-success"><a href="https://github.com/Noubissie237/tapatan-game">Projet GitHub</a></button>
+                            <button class="btn btn-outline-success"><a
+                                    href="https://github.com/Noubissie237/tapatan-game">Projet GitHub</a></button>
                             <button class="btn btn-outline-success"><a href="#">Démo en direct</a></button>
                         </div>
                     </div>
@@ -83,7 +94,7 @@
     </section>
 
     <!-- Section Contact -->
-    <section id="contact" class="bg-light py5">
+    <section id="contact" class="bg-light py5 mb-5">
         <div class="container text-center">
             <h2 class="mb-4">Contactez-moi</h2>
         </div>
@@ -93,23 +104,57 @@
             <a href="https://x.com/NKW_237" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/wilfried-noubissie-kamga-989912298"><i class="fab fa-linkedin"></i></a>
         </div>
+
+        <div class="container mt-5 mb-5">
+            <div class="card">
+                <span class="title">Laissez moi un message</span>
+                <form class="form" action="https://formspree.io/f/xjvnezdz" method="POST">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="group">
+                                <input placeholder="" type="text" required="">
+                                <label for="name">Nom</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="group">
+                                <input placeholder="" type="email" id="email" name="email" required="">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <input placeholder="" type="text" name="objet" required="">
+                        <label for="objet">Objet</label>
+                    </div>
+                    <div class="group">
+                        <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                        <label for="comment">Message</label>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+
     </section>
 
     <!-- Footer -->
     <footer class="mt-5">
         <div class="container copyright text-center mt-5">
             <p> <span>Design by</span> <strong class="px-1">NK</strong></p>
-                <div class="member-img">
-                  <img src="img/logo2.png" class="img-fluid" alt="logo" width="100px">
-                </div>
-          </div>
+            <div class="member-img">
+                <img src="img/logo2.png" class="img-fluid" alt="logo" width="100px">
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
 
 <style>
-    .icons a
-    {
+    .icons a {
         font-size: 24px;
         margin-right: 10px;
     }
